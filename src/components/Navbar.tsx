@@ -10,7 +10,7 @@ import logo from "../images/logo.svg";
 import {RxHamburgerMenu} from "react-icons/rx";
 
 import SideNav from "./SideNav";
-import useWindowDimensions from "./useWindow";
+import useWindowDimensions from "./UseWindow";
 
 export default function Navbar() {
   // this is a function that navigates to /dashboard using useNavigate as declared
