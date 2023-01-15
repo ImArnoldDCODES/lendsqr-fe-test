@@ -16,5 +16,5 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-![WhatsApp - Google Chrome 1_14_2023 10_57_38 PM](https://user-images.githubusercontent.com/86753228/212498875-3cfff10f-ce05-4a75-bb98-7cadfe6f11e9.png)
-![WhatsApp - Google Chrome 1_14_2023 10_57_48 PM](https://user-images.githubusercontent.com/86753228/212498883-ad5de84b-1767-48a9-b4cb-21e9432dc175.png)
+![Page-1](https://user-images.githubusercontent.com/86753228/212498875-3cfff10f-ce05-4a75-bb98-7cadfe6f11e9.png)
+![Page2](https://user-images.githubusercontent.com/86753228/212498883-ad5de84b-1767-48a9-b4cb-21e9432dc175.png)
