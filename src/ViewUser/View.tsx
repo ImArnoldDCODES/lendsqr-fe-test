@@ -6,7 +6,7 @@ import axios from "axios";
 import Navbar from "../components/Navbar";
 import SideNav from "../components/SideNav";
 import { useNavigate, useParams } from "react-router-dom";
-import userProps from "../components/interface";
+import userProps from "../components/Interface";
 
 //icons
 import back from "../icons/back.svg";

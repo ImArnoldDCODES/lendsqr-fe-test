@@ -9,7 +9,7 @@ import Navbar from "../components/Navbar";
 import SideNav from "../components/SideNav";
 import Userdetails from "../components/Userdetails";
 import FIlter from "../components/Filter";
-import userProps from "../components/interface";
+import userProps from "../components/Interface";
 
 //icons
 import view from "../icons/view.svg";
