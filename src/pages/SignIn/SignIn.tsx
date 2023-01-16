@@ -3,8 +3,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 //icons
-import Logo from "../images/logo.svg";
-import Svg from "../images/loginvector.svg";
+import Logo from "../../images/logo.svg";
+import Svg from "../../images/loginvector.svg";
 
 export default function SignUp() {
   const [values, setValues] = useState({

@@ -3,16 +3,16 @@ import "./View.scss";
 import { useEffect, useState } from "react";
 import axios from "axios";
 //component
-import Navbar from "../components/Navbar";
-import SideNav from "../components/SideNav";
+import Navbar from "../../components/Navbar";
+import SideNav from "../../components/SideNav";
 import { useNavigate, useParams } from "react-router-dom";
-import userProps from "../components/Interface";
+import userProps from "../../components/Interface";
 
 //icons
-import back from "../icons/back.svg";
-import star from "../icons/star.svg";
-import star2 from "../icons/star2.svg";
-import star3 from "../icons/star3.svg";
+import back from "../../icons/back.svg";
+import star from "../../icons/star.svg";
+import star2 from "../../icons/star2.svg";
+import star3 from "../../icons/star3.svg";
 
 export default function View() {
 

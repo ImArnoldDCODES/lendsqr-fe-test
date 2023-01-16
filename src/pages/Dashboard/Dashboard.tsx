@@ -5,20 +5,20 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 //components
-import Navbar from "../components/Navbar";
-import SideNav from "../components/SideNav";
-import Userdetails from "../components/Userdetails";
-import FIlter from "../components/Filter";
-import userProps from "../components/Interface";
+import Navbar from "../../components/Navbar";
+import SideNav from "../../components/SideNav";
+import Userdetails from "../../components/Userdetails";
+import FIlter from "../../components/Filter";
+import userProps from "../../components/Interface";
 
 //icons
-import view from "../icons/view.svg";
-import useractive from "../icons/useractive.svg";
-import userinactive from "../icons/userinactive.svg";
-import dropdown from "../icons/dropdown2.svg";
-import dropdown2 from "../icons/dropdown.svg";
-import next from "../icons/next.svg";
-import previous from "../icons/previous.svg";
+import view from "../../icons/view.svg";
+import useractive from "../../icons/useractive.svg";
+import userinactive from "../../icons/userinactive.svg";
+import dropdown from "../../icons/dropdown2.svg";
+import dropdown2 from "../../icons/dropdown.svg";
+import next from "../../icons/next.svg";
+import previous from "../../icons/previous.svg";
 import { BiDotsVerticalRounded } from "react-icons/bi";
 
 // details popup
