@@ -1,17 +1,14 @@
 import { useState, useEffect } from "react";
 import "./Dashboard.scss";
-//packages
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-//components
 import Navbar from "../../components/Navbar";
 import SideNav from "../../components/SideNav";
 import Userdetails from "../../components/Userdetails";
 import FIlter from "../../components/Filter";
 import userProps from "../../components/Interface";
 
-//icons
 import view from "../../icons/view.svg";
 import useractive from "../../icons/useractive.svg";
 import userinactive from "../../icons/userinactive.svg";
@@ -21,13 +18,11 @@ import next from "../../icons/next.svg";
 import previous from "../../icons/previous.svg";
 import { BiDotsVerticalRounded } from "react-icons/bi";
 
-// details popup
 const Details = (details: any) => {
   const [mouse, setMouse] = useState(false);
 
   const number = details.details;
 
-  // this is a function that navigates to /dashboard using useNavigate as declared
   let navigate = useNavigate();
   function handleClick() {
     navigate(`/dashboard/user/${number}`);
@@ -177,7 +172,6 @@ export default function Dashboard() {
                   </tr>
                 </thead>
                 <tbody>
-                  {/* mapped out data stored in the userdata state from the api */}
                   {usersdata?.slice(0, 14).map((data: any) => {
                     return (
                       <tr key={data.id}>
@@ -200,7 +194,6 @@ export default function Dashboard() {
                           {displaydetails === data.id && (
                             <Details details={data.id} />
                           )}
-                        {/* <hr style={{position: 'relative', left: 10, width: '100rem', marginTop: '1rem'}}/> */}
                       </tr>
                     );
                   })}
